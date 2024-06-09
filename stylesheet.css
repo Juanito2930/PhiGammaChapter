@@ -121,9 +121,12 @@ img{
 */
 .LCtext{
     border: solid black;
-    margin: 5%;
+    padding: 20px;
+    margin: 20px;
     float: left;
-    width: 30%;
+    width: 20%;
+    padding-left: 25px;
+
 }
 
 /*CCTEXT CLASS *//*
@@ -132,20 +135,26 @@ img{
     - Makes the website look more formal
 */
 .CCtext {
-    border: solid black;
-    margin: 5%;
-    float: none;
-    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    content:20px;
+    text-align: center;
+    float: left;
+    width: 48%;
+    height: 200px;
+    padding-left: 10px;
 }
 
-/*LCTEXT CLASS *//*
+/*RCTEXT CLASS *//*
     PUPROSE:
     - Creates a text card to put text in.
     - Makes the website look more formal
 */
 .RCtext {
-    border: solid black;
-    margin: 5%;
+    margin: 20px;
+    padding: 20px;
     float: right;
-    width: 30%;
+    width: 20%;
+    height: 50px;
+    padding-right: 10px;
 }
