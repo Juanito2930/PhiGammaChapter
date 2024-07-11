@@ -121,12 +121,11 @@ img{
 */
 .LCtext{
     border: solid black;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 31px;
     float: left;
     width: 20%;
     padding-left: 25px;
-
 }
 
 /*CCTEXT CLASS *//*
@@ -135,13 +134,12 @@ img{
     - Makes the website look more formal
 */
 .CCtext {
-    margin: 20px;
-    padding: 20px;
-    content:20px;
+    border: solid black;
+    margin: 2dvb;
+    padding: 10px;
     text-align: center;
     float: left;
-    width: 48%;
-    height: 200px;
+    width: 44%;
     padding-left: 10px;
 }
 
@@ -151,10 +149,23 @@ img{
     - Makes the website look more formal
 */
 .RCtext {
-    margin: 20px;
-    padding: 20px;
+    border: solid black;
+    margin: 31px;
+    padding: 10px;
     float: right;
     width: 20%;
-    height: 50px;
     padding-right: 10px;
 }
+
+/*TABLE ID *//**/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
