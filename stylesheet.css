@@ -135,12 +135,13 @@ img{
 */
 .CCtext {
     border: solid black;
-    margin: 2dvb;
+    margin: 21px;
     padding: 10px;
     text-align: center;
     float: left;
-    width: 44%;
-    padding-left: 10px;
+    width: 80%;
+    background-color: rgb(238, 234, 229);
+
 }
 
 /*RCTEXT CLASS *//*
@@ -151,10 +152,10 @@ img{
 .RCtext {
     border: solid black;
     margin: 31px;
+    text-align: center;
     padding: 10px;
     float: right;
     width: 20%;
-    padding-right: 10px;
 }
 
 /*TABLE ID *//**/
@@ -169,3 +170,7 @@ table {
     text-align: left;
     padding: 8px;
   }
+.BoxStyling {
+    border: grey;
+}
+
