@@ -1,16 +1,19 @@
 /*FOR MOBILE-----------------------------------------------------------------*/
-*{
+
+/* Ensure the body and html take full width */
+html, body {
     margin: 0;
     padding: 0;
-}
-
-body{
-    margin: 0;
-}
-
-.wrapper{
     width: 100%;
+    height: 100%;
 }
+
+/* Wrapper to take full width */
+.wrapper {
+    width: 100%;
+    margin: 0 auto; /* Center if needed */
+}
+
 
 .topNav1 {
 /* TOPNAV1 CLASS *//*
@@ -32,34 +35,28 @@ body{
 */
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 
 .img-cresent{
 padding: 10px 10px 10px;
 float: center;
+width: 100%;
 }
-
+/* Correct navigation styles */
 .topNav2 {
-/* TOPNAV2 CLASS *//*
-    PURPOSE:
-    - styles the second top navigation bar
-*/
     width: 100%;
     background-color: white;
+    text-align: center; /* Use this to center links horizontally */
 }
 
 .topNav2 a {
-/* TOPNAV2 A CLASS*//*
-    PURPOSE:
-    - Makes the links work
-*/
-    float: center;
-    padding: 18px;
+    display: inline-block; /* Ensure the links appear side by side */
+    padding: 10px 20px; /* Adjust spacing */
     text-decoration: none;
     color: black;
-    font-size: 9px ;
+    font-size: 20px;
 }
-
 .topNav2 a:hover{
 /* TOPNAV2 A:HOVER *//*
     PURPOSE:
@@ -75,6 +72,7 @@ img{
 */
     float: left;
     width: 150px;
+    height: 70px;
     margin-left: 30%;
  }
 
@@ -85,15 +83,16 @@ img{
 */
     border: hidden;
     background-color: #215732 ;
-    width: 100%;
+    /*width: 100%;*/
 }
 .opening_Text{
     color: white;
     padding: 100px;
     text-align:Center;
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Times New Roman';
     text-shadow: 5px 5px 14px #000000;
+    
     
 }
 
@@ -104,7 +103,7 @@ img{
    - Sets the font + font size of the text in the main body text
 */
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     font-family: "Lucida Console", "Courier New", monospace;
     margin: 10%;
 }
@@ -115,12 +114,12 @@ img{
     - Creates a text card to put text in.
     - Makes the website look more formal
 */
-    border: solid black;
     padding: 10px;
-    margin: 31px;
-    float: left;
-    width: 20%;
-    padding-left: 25px;
+    align-self: left;
+    width: 100%;
+    height: 100px;
+    
+    
 }
 
 .CCtext {
@@ -145,13 +144,26 @@ img{
     - Creates a text card to put text in.
     - Makes the website look more formal
 */
-    border: solid black;
-    margin: 31px;
-    text-align: center;
     padding: 10px;
-    float: right;
-    width: 20%;
+    align-items: right;
+    width: 100%;
 }
+
+
+.txtCard{
+/*Text format card*//*
+  PURPOSE:
+    - Creates a text card to style the text 
+*/
+    margin: 20px;
+    border: solid black;
+    height: 550px;
+    width: 98%;
+    box-shadow: 8px 8px 15px #8f8e8e;
+
+}
+
+
 
 table {
 /*TABLE ID */
@@ -202,7 +214,7 @@ table {
 
 
 /*FOR TABLET-----------------------------------------------------------------*/
-@media only screen and (min-width: 768){
+@media only screen and (min-width: 768px){
 
 /* IMG *//*
     PURPOSE:
@@ -265,7 +277,7 @@ img{
 
 /*FOR COMPUTER-----------------------------------------------------------------*/
 
-@media only screen and (mid-width: 1000){
+@media only screen and (mid-width: 1000px){
     /* IMG *//*
         PURPOSE:
         - styles + aligns the star and cresent in the second Navigation bar
