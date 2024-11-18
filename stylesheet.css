@@ -39,7 +39,7 @@ html, body {
 }
 
 .img-cresent{
-padding: 10px 10px 10px;
+padding: 10px 10px 30px;
 float: center;
 width: 100%;
 }
@@ -70,10 +70,10 @@ img{
     PURPOSE:    
     - styles + aligns the star and cresent in the second Navigation bar
 */
-    float: left;
-    width: 150px;
-    height: 70px;
-    margin-left: 30%;
+    float: center;
+    width: 250px;
+    height: 120px;
+    margin-left: 20%;
  }
 
 .opening_display{
@@ -83,7 +83,9 @@ img{
 */
     border: hidden;
     background-color: #215732 ;
-    /*width: 100%;*/
+    width: 100px 100%;
+    margin: 0;
+    box-sizing: border-box;
 }
 .opening_Text{
     color: white;
@@ -92,7 +94,8 @@ img{
     font-size: 35px;
     font-family: 'Times New Roman';
     text-shadow: 5px 5px 14px #000000;
-    
+    margin: 0 auto;
+
     
 }
 
@@ -459,5 +462,3 @@ table {
     border: grey;
 }
 }
-
-
